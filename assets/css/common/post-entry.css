@@ -84,6 +84,19 @@
 	bottom: 0;
 }
 
+.entry-tags {
+	margin-top: 0.5rem;
+}
+
+.entry-tags__tag {
+	display: inline;
+	border-radius: calc(36px / 2);
+	padding: 8px 8px;
+	font-size: 0.8rem;
+	border: 1px solid var(--border);
+	background: var(--code-bg);
+}
+
 .entry-cover,
 .entry-isdraft {
 	font-size: 14px;
