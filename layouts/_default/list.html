@@ -69,11 +69,11 @@ if $term }} {{- $class = "post-entry tag-entry" }} {{- end }}
 		aria-label="post link to {{ .Title | plainify }}"
 		href="{{ .Permalink }}"
 	></a>
-	<ul class="entry-tags">
-		{{- range $tag := (.Param "tags")}}
-		<li class="entry-tags__tag">{{$tag}}</li>
+	<div class="entry-tags">
+		{{ $tags := (.Param "tags")}} {{- range $tag := $tags}}
+		<div class="entry-tags__tag">{{$tag}}</div>
 		{{- end }}
-	</ul>
+	</div>
 </article>
 {{- end }} {{- if gt $paginator.TotalPages 1 }}
 <footer class="page-footer">
