@@ -18,6 +18,10 @@ A few of the updates made are highlighted below:
 4. Table for content in light mode<br>
    <img width="933" alt="Table of content in light mode" src="https://user-images.githubusercontent.com/69479854/197366887-365d1eec-3ba4-463d-85ef-b76b7a458c73.png">
 
+5. New look archives page<br>
+   <img width="942" alt="New look archives page" src="https://user-images.githubusercontent.com/69479854/197367254-3084cc4a-121f-4b0e-ac11-66df6813ed18.png">
+
+
 ## Installation
 
 1. Clone it to the `themes` directory for your Hugo website directly:
